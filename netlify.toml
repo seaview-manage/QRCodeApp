@@ -1,3 +1,4 @@
 [build]
-  publish = "C:\Users\fook li\OneDrive\Documents\Seaview Hotel\QRCodeApp"
-  functions = "C:\Users\fook li\OneDrive\Documents\Seaview Hotel\QRCodeApp"
+  base = "."
+  publish = "path/to/your/publish/directory"
+  functions = "path/to/your/functions/directory"
