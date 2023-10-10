@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 80%; /* Limit content to 80% of the viewport width */
+}
+
+.button {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensure buttons are displayed as block elements */
+    width: 100%; /* Make buttons take up 100% of the available width */
+    box-sizing: border-box; /* Include padding and border in button's total width */
+}
+
+@media (min-width: 768px) {
+    /* Apply styles for larger screens (tablets and desktops) */
+    .content {
+        max-width: 500px; /* Set a maximum width for content on larger screens */
+    }
+
+    .button {
+        width: auto; /* Buttons take up natural width on larger screens */
+    }
+}
