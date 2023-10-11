@@ -1,5 +1,5 @@
 var buttonsData = [
-    { label: "Emaergency", link: "https://1drv.ms/i/s!AtdhzsQUaU89hAeopnUU2R1m1P-v?e=jjbaCf" },
+    { label: "Emergency", link: "https://1drv.ms/i/s!AtdhzsQUaU89hAeopnUU2R1m1P-v?e=jjbaCf" },
     { label: "TV Channel", link: "https://1drv.ms/i/s!AtdhzsQUaU89hA2f7UEZiR8lB4AU?e=i2CCgT" },
     { label: "Hotel Surrounding", link: "https://1drv.ms/i/s!AtdhzsQUaU89hAyOoqJZhg9fOh9-?e=Jr91BP" },
     { label: "Earth Hour", link: "https://1drv.ms/i/s!AtdhzsQUaU89hAbJ3guqPzkmNDd0?e=p2YbVL" },
