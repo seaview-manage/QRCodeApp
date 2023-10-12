@@ -1,4 +1,4 @@
-.body {
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -23,6 +23,7 @@
     box-sizing: border-box;
 }
 
+
 .button {
     margin: 10px;
     padding: 20px; /* Set the padding to create a square button */
@@ -45,4 +46,11 @@
         width: 150px; /* Adjust the width for larger screens if needed */
         height: 150px; /* Set the same height as the width for a square button */
     }
+}
+/* Additional styles for button2 */
+#button2 {
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 80px;
 }
