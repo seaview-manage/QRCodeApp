@@ -54,3 +54,170 @@ body {
     font-size: 18px;
     line-height: 80px;
 }
+
+
+
+
+#homeButton {
+    margin-top: 20px; /* Add some space between the form button and other elements */
+    padding: 15px 30px; /* Padding for the form button */
+    background-color: #d3bb35; /* Green background color */
+    color: #116479; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Round the corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px; /* Font size for the form button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+
+    /* Add hover effect */
+    &:hover {
+        background-color: #d3bb35; /* Darker green on hover */
+    }
+
+    /* Additional styles for larger screens if needed */
+    @media (min-width: 768px) {
+        font-size: 18px; /* Increase font size for larger screens */
+        padding: 20px 40px; /* Adjust padding for larger screens */
+    }
+}
+
+#formButton {
+    margin-top: 20px; /* Add some space between the form button and other elements */
+    padding: 10px 20px; /* Adjust padding for the form button */
+    font-size: 14px; /* Reduce font size for the form button */
+    border-radius: 10px; /* Optional: Round the corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+
+    /* Add hover effect */
+    &:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+
+    /* Additional styles for larger screens if needed */
+    @media (min-width: 768px) {
+        font-size: 16px; /* Increase font size for larger screens */
+        padding: 15px 30px; /* Adjust padding for larger screens */
+    }
+}
+
+#googleButton {
+    margin-top: 20px; /* Add some space between the form button and other elements */
+    padding: 10px 20px; /* Adjust padding for the form button */
+    font-size: 14px; /* Reduce font size for the form button */
+    border-radius: 10px; /* Optional: Round the corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+
+    /* Add hover effect */
+    &:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+
+    /* Additional styles for larger screens if needed */
+    @media (min-width: 768px) {
+        font-size: 16px; /* Increase font size for larger screens */
+        padding: 15px 30px; /* Adjust padding for larger screens */
+    }
+}
+
+#suggestButton {
+    margin-top: 20px; /* Add some space between the form button and other elements */
+    padding: 10px 20px; /* Adjust padding for the form button */
+    font-size: 14px; /* Reduce font size for the form button */
+    border-radius: 10px; /* Optional: Round the corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+
+    /* Add hover effect */
+    &:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+
+    /* Additional styles for larger screens if needed */
+    @media (min-width: 768px) {
+        font-size: 16px; /* Increase font size for larger screens */
+        padding: 15px 30px; /* Adjust padding for larger screens */
+    }
+}
+
+
+
+
+.logo {
+    text-align: center;
+    padding: 20px 0; /* Add padding to create space between logo and content */
+    position: relative; /* Set position to relative */
+    z-index: 2; /* Set a higher z-index to keep the logo above other elements */
+}
+
+.logo img {
+    width: 200px; /* Set the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.button-container {
+    position: relative; /* Set position to relative for the button container */
+    z-index: 1; /* Set a lower z-index than the logo to keep buttons below the logo */
+}
+
+/* Additional styles for larger screens if needed */
+@media (min-width: 768px) {
+    .logo {
+        padding: 30px 0; /* Adjust padding for larger screens */
+    }
+
+    .logo img {
+        width: 200px; /* Adjust logo size for larger screens */
+    }
+}
+
+
+
+
+.button {
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.button1 {
+    background-color: #3498db;
+    color: white;
+}
+
+.button2 {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.button3 {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.button4 {
+    background-color: #f39c12;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.1); /* Add a slight zoom effect on hover */
+}
